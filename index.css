@@ -1,0 +1,48 @@
+nav {
+      position: absolute;
+      left: 25%;
+}
+
+nav a{
+      position: relative;
+      padding-right: 30px;
+      font-family: arail;
+
+}
+div{
+      font-family: arial;
+      padding-top: 100px;
+      height: 300px;
+      border: outset;
+      border-radius: 30px;
+}
+.selah{
+      font-family: arial; 
+      text-align: left; 
+      background-image: url(vnf1.jpg);
+      padding-left: 50px;
+}
+
+.feature1{
+      text-align: right; 
+}
+
+.feature2{
+      text-align: left;
+}
+
+.feature3{
+      text-align: right;
+}
+button{
+      color: white; 
+      background-color: blue; 
+      border: none; 
+      padding: 10px;
+      margin-left: 80px;
+      border-radius: 12px;
+      transition: background-color;
+}
+button:hover {
+      background-color: darkblue;
+}
