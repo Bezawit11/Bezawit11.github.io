@@ -19,7 +19,7 @@ div{
 .selah{
       font-family: arial; 
       text-align: left; 
-      background-image: url(vnf1.jpg);
+      background-image: url('vnf1.jpg');
       padding-left: 50px;
 }
 
