@@ -29,6 +29,10 @@ div{
 
 .feature2{
       text-align: left;
+      background-image: url('search-bar-icon.jpg');
+      background-size: 650px;
+      background-repeat: no-repeat;
+      background-position: right;
 }
 
 .feature3{
