@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>DenqGuzo</title>
+  <title>denkguzo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -47,7 +47,7 @@
     }
     
     .lo{
-        background-img: url("./jo.jpg") center;
+        background: url("static/img/jo.jpg") center;
         height: 800px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -66,7 +66,7 @@
     }
     @media screen and (max-width:930px){
       .lo{
-        background: url("g.jpg") center;
+        background: url("static/img/g.jpg") center;
         height: 800px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -89,7 +89,7 @@ color: #555;
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">DenqGuzo</a>
+        <a class="navbar-brand" href="#">denkguzo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -97,24 +97,27 @@ color: #555;
             <ul class="navbar-nav mr-auto">
             </ul>
             <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">en</a>
+                </li>
                 <li class="nav-item dropdown dropleft">
                   <a class="nav-link dropdown-toggle"  data-toggle="dropdown" href="#">
                     login
                   </a>
                   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="/login-riders">ride</a>
+                    <a class="dropdown-item" href="/login-riders">ride login</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/login-drivers">driver</a>
+                    <a class="dropdown-item" href="/login-drivers">driver login</a>
                   </div>
               </li>
               <li class="nav-item dropdown dropleft">
                 <a class="nav-link dropdown-toggle"  data-toggle="dropdown" href="#">
-                  Register
+                  register
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="/sign-up-riders">ride</a>
+                  <a class="dropdown-item" href="/sign-up-riders">ride register</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="/sign-up-drivers">driver</a>
+                  <a class="dropdown-item" href="/sign-up-drivers">driver register</a>
                 </div>
             </li>
             </ul>
@@ -126,12 +129,14 @@ color: #555;
     <div class=" col-xs-12 col-sm-6">
         <div class="card col-sx-12 text-light border-2 " style="height: 300px;background-color:#7a81a8; border-top-right-radius: 20px;border-bottom-right-radius: 20px; margin-top: 100px;font-family: sans-serif;">
             <div class="card-body mr-5">
-              <h1 class="card-title" style="font-family:sans-serif">Reducing Waste Of Time And Cost In Transport</h1>
-              <p class="card-text ml-5"  style="margin-left: 100px;font-family:sans-serif">Use different minibuses that are in vicinty to your location</p>
-              <a href="http://denqguzo.pythonanywhere.com" class="btn btn-primary" style="margin-left: 100px;">Get Started</a>
+              <h1 class="card-title" style="font-family:sans-serif">Reduce Waste Of Time And Cost In Transport</h1>
+              <p class="card-text ml-5"  style="margin-left: 100px;font-family:sans-serif">use different minibus that are vicinty to your location</p>
+              <p class="card-text ml-5"  style="margin-left: 300px;font-family:sans-serif">+100,000 peoples use our app</p>
+              <a href="/sign-up-riders" class="btn btn-primary" style="margin-left: 100px;">sign up here</a>
             </div>
           </div>
       <div class="col-6">
+
       </div>
     </div>
 
@@ -145,7 +150,7 @@ color: #555;
         <div class="col-sm-12 ">
           <div class="card" style="border: none;">
             <div class="card-body">
-              <h1 class="card-title" style="font-family:sans-serif;">Delivering our service in a comfortable environment makes as our customers' choice.</h1>
+              <h1 class="card-title" style="font-family:sans-serif;">Deliver comfort environment to customer makes as choicable</h1>
               <p class="card-text" style="margin-left: 50px;font-family:sans-serif;">user no need to feel stuffy because we provide ventilation and and amount of person<br> that we take are based on the size of mibus .there is no overload</p>
               <img class="card-img-top b-4 w-50 " src="static/img/ho.jpg" style="border-radius: 20px; margin-left: 50px;" alt="Card image" >
             </div>
@@ -154,7 +159,7 @@ color: #555;
         <div class="col-sm-12 " style="margin-top: 100px;">
           <div class="card" style="border: none;">
             <div class="card-body">
-              <h1 class="card-title" style="font-family:sans-serif;">Reducing waste of time waiting for minibus</h1>
+              <h1 class="card-title" style="font-family:sans-serif;">reducing waste of time waiting for minibus</h1>
               <p class="card-text" style="margin-left: 50px;font-family:sans-serif;">real time provide service makes as unqiue and<br> we reduce long get line to get a taxi by providing efficent </p>
               <img class="card-img-top  w-50" src="static/img/line.jpg" alt="Card image" style="border-radius: 20px; margin-left: 50px;" >
             </div>
@@ -163,7 +168,7 @@ color: #555;
         <div class="col-sm-12 " style="margin-top: 100px;">
           <div class="card" style="border: none;">
             <div class="card-body">
-              <h1 class="card-title"style="font-family:sans-serif;">Supply sufficent amount of minibus for user</h1>
+              <h1 class="card-title"style="font-family:sans-serif;">supply sufficent amount of minibus for user</h1>
               <p class="card-text" style="margin-left: 50px;font-family:sans-serif;"> we report data to country transport authorization by identify a place that notice lack of minibus<br> and to deliver  sufficent amount as much as possible</p>
               <img class="card-img-top  w-50" src="static/img/wq.jpg" alt="Card image" style="border-radius: 20px; margin-left: 50px;" >
             </div>
@@ -253,12 +258,12 @@ color: #555;
       <div class="card-body">
         <h1 class="card-title"style="font-family:sans-serif;" >Create your account Today and Get Started</h1>
         <p class="card-text" style="margin-left: 50px;font-family:sans-serif;">you need to get adequate service for amount of money you pay</p>
-        <a href="http://denqguzo.pythonanywhere.com" class="btn btn-primary" style="margin-left: 100px;">sign up here</a>  
+        <a href="/sign-up-riders" class="btn btn-primary" style="margin-left: 100px;">sign up here</a>  
       </div>
     </div>
     <div class="col-md-6 col-xs-12 ">
       <div class="card" style="border: none;">
-        <img class="card-img-top w-100" src="wq.jpg" alt="Card image" style="border-radius: 20px; margin-bottom: 200px; " >
+        <img class="card-img-top w-100" src="static/img/wq.jpg" alt="Card image" style="border-radius: 20px; margin-bottom: 200px; " >
           </div>
 
     </div>
@@ -268,38 +273,38 @@ color: #555;
   <div class="n">
   <div class="faq">
     <div class="question">
-      <h3 style="font-family:sans-serif;">what is Denkguzo?</h3>
+      <h3 style="font-family:sans-serif;">what is Denkguzo ?</h3>
       <svg width="15" height="10" viewBox="0 0 42 25">
         <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
       </svg>
     </div>
    <div class="answer">
-    <P style="font-family:sans-serif;">Denkguzo is a privately developed minibus website that serves customer by providing minibus services using current technology.
+    <P style="font-family:sans-serif;">Denkguzo is a private developed minibus website that serve customer by provide minibus service using current technology
     </P>
    </div>
   </div>
   <div class="faq">
     <div class="question">
-      <h3 style="font-family:sans-serif;">why was this website developed?</h3>
+      <h3 style="font-family:sans-serif;">why this website developed?</h3>
       <svg width="15" height="10" viewBox="0 0 42 25">
         <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
       </svg>
     </div>
    <div class="answer">
-    <P style="font-family:sans-serif;">The reason we have developed this website is because we have a great enthusiastic
-      to solve the transport issue that is persisitantly noticed in our country.
+    <P style="font-family:sans-serif;">The reason we have been developed this website because we have a great enthusiastic
+      to solve transport issue that persisitantly notice in our country
     </P>
    </div>
   </div>
   <div class="faq">
     <div class="question">
-      <h3 style="font-family:sans-serif;">Does Denkguzo provide services other than transport?</h3>
+      <h3 style="font-family:sans-serif;">is Denkguzo provide service other than transport?</h3>
       <svg width="15" height="10" viewBox="0 0 42 25">
         <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
       </svg>
     </div>
    <div class="answer">
-    <P style="font-family:sans-serif;">That is really important question but for know we only provide transport services may be in the future we provide other related service
+    <P style="font-family:sans-serif;">that is really important question but for know we only provide transport service may be in the future we provide other related service
     </P>
    </div>
   </div>
@@ -307,9 +312,9 @@ color: #555;
   </div>
   <div class="col-sx-12 col-sm-12 ">
 <footer>
-<p style="font-family:sans-serif;">© 2023 DenqGuzo. All rights reserved.</p>
-<p style="font-family:sans-serif;">Contact: denqguzo@.gmail.com | Phone: 123-456-7890</p>
-<p style="font-family:sans-serif;">Address: Addis Ababa, Ethiopia</p>
+<p style="font-family:sans-serif;">© 2021 My Webpage. All rights reserved.</p>
+<p style="font-family:sans-serif;">Contact: email@example.com | Phone: 123-456-7890</p>
+<p style="font-family:sans-serif;">Address: 123 Main St, City, State ZIP</p>
 </footer>
   </div>
   </div>
